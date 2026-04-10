@@ -210,10 +210,10 @@ function draw(){
   ctx.fillText("Xu: "+coinCount,20,100);
 
   // tên bạn
-  ctx.textAlign="right";
-  ctx.font="14px Arial";
-  ctx.fillText("Chí Cường", canvas.width-10, canvas.height-10);
-
+ctx.textAlign = "center";
+ctx.fillStyle = "white";
+ctx.font = "20px Arial";
+ctx.fillText("Chí Cường", canvas.width/2, 40);
   // game over + nút
   if(gameOver){
     ctx.textAlign="center";
