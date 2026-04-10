@@ -75,7 +75,7 @@ document.addEventListener("keydown", e=>{
     if(gameOver){
       restart();
     } else if(!player.jump){
-      player.dy = -18;
+      player.dy = -25;
       player.jump = true;
     }
   }
@@ -100,7 +100,7 @@ function spawnCoin(){
 
   coins.push({
     x:canvas.width,
-    y:groundY - 60 - Math.random()*100,
+    y:groundY - 60 - Math.random()*70,
     r:10
   });
 }
